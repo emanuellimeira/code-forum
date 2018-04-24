@@ -18,7 +18,7 @@
 			@foreach($topics as $topic)
 			<tr>
 				
-				<td>{{$topic->title}}</td>
+				<td><a href="/forum/topic/{{$topic->id}}">{{$topic->title}}</a> </td>
 				<td>{{count($topic->replies)}}</td>
 				<td>{{$topic->user->name}}</td>
 				<td></td>
