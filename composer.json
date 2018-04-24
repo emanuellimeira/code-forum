@@ -1,0 +1,16 @@
+{
+    "name": "emanuellimeira/code-forum",
+    "description": "Laravel package test",
+    "authors": [
+        {
+            "name": "Emanuel Limeira",
+            "email": "emanuellimeira@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CodeEdu\\CodeForum\\": "src/"
+        }
+    }
+}
