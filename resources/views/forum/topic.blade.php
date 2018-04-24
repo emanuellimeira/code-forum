@@ -3,14 +3,14 @@
 @section('content')
 
     <div class="container">
-    <h1>Forum:: {{$topic->title}}</h1>
+    <h1>{{$topic->title}} <small>Fórum</small></h1>
     <p>{{$topic->content}}
         <br>
         <i>Autor:{{$topic->user->name}} </i>
     </p>
     <hr>
 
-    <h3>Replies:: ({{count($topic->replies)}}) </h3>
+    <h3>({{count($topic->replies)}}) <small>Replies</small></h3>
 
     @foreach ($topic->replies as $reply)
         <p>
